@@ -15,7 +15,7 @@ This is a project template for [vue-cli](https://github.com/vuejs/vue-cli). **It
 
 ``` bash
 $ npm install -g vue-cli
-$ vue init OnsenUI/vue-cordova-webpack my-project
+$ vue init sunsern/vue-cordova-webpack my-project
 $ cd my-project
 $ npm install
 $ npm run dev
@@ -49,6 +49,21 @@ The development server will run on port 8080 by default. If that port is already
   - Works with one command out of the box:
     - Selenium and chromedriver dependencies automatically handled.
     - Automatically spawns the Selenium server.
+
+### Cordova
+
+- Install Cordova `npm install -g cordova`
+
+#### iOS
+- `cordova platform add ios`
+- `cordova emulate ios`
+- `cordova build ios`
+
+#### Android
+- `cordova platform add android`
+- `cordova emulate android`
+- `cordova build android`
+
 
 ### Fork It And Make Your Own
 
